@@ -10,7 +10,7 @@
 
 <body>
 
-<header><!--Top Navbar-->
+  <header><!--Top Navbar-->
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
 
@@ -27,21 +27,6 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Home</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-
       <ul class="nav navbar-nav navbar-right">
         <li class="active">
           <a href="#">Home
@@ -56,7 +41,7 @@
             <li><a href="#">Oil Change</a></li>
             <li><a href="#">Alignment</a></li>
             <li><a href="#">Brakes</a></li>
-            <li><a href="#">Brakes</a></li>
+            <li><a href="#">Brakes</a></li> 
             <li><a href="#">Brakes</a></li>
             <li><a href="#">Brakes</a></li>
             <li class="divider"></li>
@@ -68,21 +53,20 @@
         <li> <a href="#promise">Our Promise</a></li>
         <li> <a href="#staff">Staff</a></li>        
       </ul><!--nav navbar-nav navbar-right-->
-
     </div><!-- /.navbar-collapse -->
 
   </div><!-- /.container-fluid -->
   </nav><!--Top Navbar-->
-</header><!--End Top Navbar-->
+  </header><!--End Top Navbar-->
 
 
-<div class="row"><!--All content container: sedondary navbar 2 coulums and all pages in 10 columns-->
-  <div class="container hidden-xs col-sm-2 col-md-2">
+  <div class="row"><!--All content container: sedondary navbar 2 coulums and all pages in 10 columns-->
+    <div class="container hidden-xs col-sm-2 col-md-2">
 
-    <header><!--Secondary, "All services", Navbar-->
+      <header><!--Secondary, "All services", Navbar-->
       <nav class="nav navbar navbar-default navbar-lower navbar-outer navbar-fixed-top" role="navigation">
 
-      <!--Brand img-->
+        <!--Brand img-->
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
           <img class="custom-brand-img" src="../images/brand.jpg">
@@ -92,7 +76,7 @@
         </div> <!--END Brand img-->
         <div class="container-fluid">
           <div class="collapse navbar-collapse collapse-buttons">       
-            <form class="navbar-form navbar-left" role="search">
+            <!-- <form class="navbar-form navbar-left" role="search"> -->
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><br></br><br></br><br></br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; All Services<span class="caret"></span>
                 </a>
@@ -107,20 +91,19 @@
                   <li><a href="#">Home</a></li>
                 </ul>
               </li>
-            </form>            
+            <!-- </form> -->            
           </div><!--End collapse navbar-collapse-->
         </div>
       </nav> 
-    </header><!--End Secondary, "All services", bar-->
-  </div><!--One of the two main containers; 2 then 10 This one is for 2*****-->
-
-
-  <div class="container col-xs-12 col-sm-10 col-md-10"><!--Start of primary contianer for main row-->
+      </header><!--End Secondary, "All services", bar-->
+    </div><!--One of the two main containers; 2 then 10 This one is for 2*****-->
+    <div class="container col-xs-12 col-sm-10 col-md-10"><!--Start of primary contianer for main row-->
 
     <!--****Place All content in here****-->
 
     <!--Carousel-->
-    <div id="carousel-main" class="carousel slide" data-ride="carousel"><!--Carousel Main-->
+    <div class="content container">
+      <div id="carousel-main" class="carousel slide" data-ride="carousel"><!--Carousel Main-->
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
@@ -132,7 +115,7 @@
       <div class="carousel-inner" role="listbox">
 
         <div class="item active">
-          <img src="../images/photo.jpg" alt="photo1"> <!--Photos need to be the same size, 1920px X 741px works good for full screen-->
+          <img src="../images/danielwig2.jpg" alt="photo1"> <!--Photos need to be the same size, 1920px X 741px works good for full screen-->
           <div class="carousel-caption">
           This is photo one.
           </div>
@@ -157,7 +140,8 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!--End Carousel Main-->
+      </div><!--End Carousel Main-->
+    </div>
     <!--End Carousel-->
 
     <!--Pages-->
@@ -168,12 +152,12 @@
         <h2>Our Promise</h2> 
 
         <div class="row">
-        <p class="col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2">Once upon a time, there was a mechanic. This mechanic, named Jay,
+        <p class="col-sm-6 col-md-6">Once upon a time, there was a mechanic. This mechanic, named Jay,
         sought a dream to own an honest auto garage...Once upon a time, there was a mechanic. This mechanic, named Jay,
         sought a dream to own an honest auto garage...Once upon a time, there was a mechanic. This mechanic, named Jay,
         sought a dream to own an honest auto garage...
         </p>
-        <p class="col-sm-5 col-md-4">
+        <p class="col-sm-6 col-md-6">
         Once upon a time, there was a mechanic. This mechanic, named Jay,
         sought a dream to own an honest auto garage...Once upon a time, there was a mechanic. This mechanic, named Jay,
         sought a dream to own an honest auto garage...Once upon a time, there was a mechanic. This mechanic, named Jay,
@@ -194,12 +178,12 @@
         <div class="row">    
 
           <!--Jay's about him-->
-          <div class="mechanic col-lg-4">
+          <div class="mechanic">
             <div class="row">
-              <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-2 offset-2 col-lg-4 col-lg-offset-0">         
-                <img class="img-thumbnail" src="images/photo.jpg" alt="Photo of Jay">
+              <div class="photo col-xs-6 col-sm-6 col-md-6 col-lg-6">         
+                <img class="img-thumbnail" src="../images/danielwig2.jpg" alt="Photo of Jay">
               </div><!--photo-->
-              <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
+              <div class="info col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <h3>Jay Ball</h3>
                 <p>Jay Ball moved to Dayton from Walla Walla x year ago. He was quickly welcome in the friendly community. After years of fixing up verticals for fun side projects, he quickly saw the need for a well experienced Auto Garage in Dayton.</p>
               </div><!--info-->
@@ -207,7 +191,7 @@
           </div><!--END Jay's about him-->
           
           <!--Daniel's about him-->
-          <div class="mechanic col-lg-4">  
+          <div class="mechanic">  
             <div class="row">
               <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">         
                 <img class="img-thumbnail" src="../images/danielwig2.jpg" alt="Photo of Daniel">
@@ -220,7 +204,7 @@
           </div><!--END Daniel's about him-->
      
           <!--Robin's about her-->
-          <div class="mechanic col-lg-4">
+          <div class="mechanic">
             <div class="row">
               <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">         
                 <img class="img-thumbnail" src="../images/photo.jpg" alt="Photo of Robin">
@@ -238,7 +222,7 @@
 
     <!--testimonials page-->
     <div class="page" id="testimonials">
-      <div class="container-fluid">
+      <div class="content container">
         <h2>Testimonials</h2>
         <div class="row">    
 
@@ -277,14 +261,76 @@
       </div><!--container-->
     </div><!--END testimonials page-->
 
+    <!--All services page-->
+    <div class="page" id="allServices">
+      <div class="content container">  
+      <h2>All Services</h2>
+        <div class="row">
+       
+          <article class="allServices col-md-4 col-sm-6 col-xs-12">
+           <img class="icon" src="images/photo.jpg" alt="Icon">
+             <h3>OIL CHANGE</h3>
+             <p>
+            Need to get your oil changed? Need to get your oil changed? 
+             Need to get your oil changed? 
+             </p>
+          </article>
+       
+          <article class="allServices col-md-4 col-sm-6 col-xs-12">
+           <img class="icon" src="images/photo.jpg" alt="Icon">
+             <h3>TIRES</h3>
+               <p>
+               Need to get you tires changed? 
+              Need to get you tires changed?Need to get you tires changed?
+               </p>
+          </article>      
+       
+          <article class="allServices col-md-4 col-sm-6 col-xs-12">
+           <img class="icon" src="images/photo.jpg" alt="Icon">
+             <h3>FILTERS</h3>
+             <p><!--If this P isn't large enough glitch apears-->
+            Dirty Filters? 123 Get them replaced. Dirty Filters? Get them replaced. 
+          Dirty Filters? 
+             </p>
+          </article>
+       
+          <article class="allServices col-md-4 col-sm-6 col-xs-12">
+           <img class="icon" src="images/photo.jpg" alt="Icon">
+             <h3>TIRES</h3>
+             <p>
+            Need to get you tires changed? Need to get you tires changed? 
+            Need to get you tires changed? Need to get you tires changed?
+             </p>
+          </article>
+       
+          <article class="allServices col-md-4 col-sm-6 col-xs-12">
+           <img class="icon" src="images/photo.jpg" alt="Icon">
+             <h3>SEAT COVERS</h3>
+             <p>
+            Riding with style. Riding with style. Riding with style.
+          Riding with style. Riding with style.
+             </p>
+          </article>
+       
+          <article class="allServices col-md-4 col-sm-6 col-xs-12">
+           <img class="icon" src="images/photo.jpg" alt="Icon">
+             <h3>RIMS</h3>
+             <p>
+            If you want spinners, we got them.
+             </p>
+          </article>
+        </div><!--row--> 
+      </div><!--content container-->
+    </div> <!--allServices page-->
+    <!--END All services page-->
+
     <!--****End All content*******-->
-  </div><!--End 10 columes of the row-->
+    </div><!--End 10 columes of the row-->
+  </div><!--End primary row-->
 
-</div><!--End primary row-->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
    <!-- <script src="../js/jquery.min.js"></script>-->
-    <script src="../dist/js/bootstrap.min.js"></script>
+  <script src="../dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
